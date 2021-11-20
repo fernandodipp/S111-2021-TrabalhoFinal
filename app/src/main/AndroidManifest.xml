@@ -29,6 +29,15 @@
             android:name=".RegisterBook"
             android:label="Register book"
             android:parentActivityName=".ReadBook" />
+        <activity android:name=".E2_ListGames" />
+        <activity android:name=".E2_RegisterGames" />
+        <activity android:name=".listaCadastroFrutas" />
+        <activity android:name=".Aps_Register" />
+        <activity android:name=".e1_activityLogged" />
+        <activity android:name=".e1_activityLogin" />
+        <activity android:name=".ex2Activity" />
+        <activity android:name=".SegundaActivity" />
+        <activity android:name=".MainActivity" />
     </application>
 
 </manifest>

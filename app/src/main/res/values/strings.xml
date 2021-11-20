@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">senai_pdm_2021_exemplo1</string>
+    <string name="altera_nome">Altera Nome</string>
+    <string name="enviar">Enviar</string>
+    <string name="abre_segunda_activity">Abre nova pág</string>
+    <string name="btnValidar">Login</string>
+    <string name="cadastrarFruta">Salvar</string>
+    <string name="preco_fruta">Preço da fruta:</string>
+    <string name="nome_fruta">Nome da fruta:</string>
+    <string name="salvar">Salve</string>
+    <string name="nome_jogo">Nome do jogo</string>
+    <string name="cadastrarJogos">Cadastrar</string>
+    <string-array name="spinnerEstCivil">
+        <item>Solteiro(a)</item>
+        <item>Casado(a)</item>
+        <item>Viúvo(a)</item>
+    </string-array>
+</resources>

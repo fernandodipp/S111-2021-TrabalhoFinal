@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = "senai_pdm_2021_exemplo1"
