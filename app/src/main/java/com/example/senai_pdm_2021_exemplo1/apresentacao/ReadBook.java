@@ -1,4 +1,13 @@
-package com.example.senai_pdm_2021_exemplo1;
+package com.example.senai_pdm_2021_exemplo1.apresentacao;
+
+import android.Manifest;
+import android.content.Intent;
+import android.content.pm.PackageManager;
+import android.database.Cursor;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
@@ -7,17 +16,8 @@ import androidx.core.content.ContextCompat;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import android.Manifest;
-import android.content.Context;
-import android.content.Intent;
-import android.content.pm.PackageManager;
-import android.database.Cursor;
-import android.net.Uri;
-import android.os.Bundle;
-import android.view.View;
-import android.widget.TextView;
-import android.widget.Toast;
-
+import com.example.senai_pdm_2021_exemplo1.R;
+import com.example.senai_pdm_2021_exemplo1.dados.Database;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 import java.util.ArrayList;
@@ -110,8 +110,8 @@ public class ReadBook extends AppCompatActivity {
                 book_id.add(cursor.getString(0));
                 book_title.add(cursor.getString(1));
                 book_author.add(cursor.getString(2));
-                book_editionYear.add(cursor.getString(3));
-                book_pages.add(cursor.getString(4));
+                book_editionYear.add(cursor.getString(4));
+                book_pages.add(cursor.getString(3));
             }
         }
     }

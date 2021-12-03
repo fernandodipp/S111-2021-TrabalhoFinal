@@ -1,10 +1,12 @@
-package com.example.senai_pdm_2021_exemplo1;
-
-import androidx.appcompat.app.AppCompatActivity;
+package com.example.senai_pdm_2021_exemplo1.apresentacao;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import com.example.senai_pdm_2021_exemplo1.R;
 
 public class SplashIntro extends AppCompatActivity {
 

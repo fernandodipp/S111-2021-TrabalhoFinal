@@ -1,4 +1,4 @@
-package com.example.senai_pdm_2021_exemplo1;
+package com.example.senai_pdm_2021_exemplo1.apresentacao;
 
 import android.app.Activity;
 import android.content.Context;
@@ -12,6 +12,8 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.senai_pdm_2021_exemplo1.R;
+
 import java.util.ArrayList;
 
 public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.MyViewHolder> {
@@ -20,7 +22,7 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.MyViewHold
     Activity activity;
     private ArrayList book_id, book_title, book_author, book_editionYear, book_pages;
 
-    CustomAdapter(Activity activity, Context contex, ArrayList book_id, ArrayList book_title, ArrayList book_author,ArrayList book_editionYear, ArrayList book_pages){
+    public CustomAdapter(Activity activity, Context contex, ArrayList book_id, ArrayList book_title, ArrayList book_author, ArrayList book_editionYear, ArrayList book_pages){
         this.activity = activity;
         this.contex = contex;
         this.book_id = book_id;

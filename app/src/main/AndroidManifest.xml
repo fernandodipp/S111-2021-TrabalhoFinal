@@ -12,7 +12,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Senai_pdm_2021_exemplo1">
-        <activity android:name=".SplashIntro">
+        <activity android:name="com.example.senai_pdm_2021_exemplo1.apresentacao.SplashIntro">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -20,24 +20,15 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".ActionsBook"
+            android:name=".apresentacao.ActionsBook"
             android:label="Edicoes do livro"
-            android:parentActivityName=".ReadBook" />
-        <activity android:name=".ReadBook"
+            android:parentActivityName=".apresentacao.ReadBook" />
+        <activity android:name=".apresentacao.ReadBook"
             android:label="Livros disponíveis"/>
         <activity
-            android:name=".RegisterBook"
+            android:name=".apresentacao.RegisterBook"
             android:label="Register book"
-            android:parentActivityName=".ReadBook" />
-        <activity android:name=".E2_ListGames" />
-        <activity android:name=".E2_RegisterGames" />
-        <activity android:name=".listaCadastroFrutas" />
-        <activity android:name=".Aps_Register" />
-        <activity android:name=".e1_activityLogged" />
-        <activity android:name=".e1_activityLogin" />
-        <activity android:name=".ex2Activity" />
-        <activity android:name=".SegundaActivity" />
-        <activity android:name=".MainActivity" />
+            android:parentActivityName=".apresentacao.ReadBook" />
     </application>
 
 </manifest>

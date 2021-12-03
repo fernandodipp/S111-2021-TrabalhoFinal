@@ -1,8 +1,4 @@
-package com.example.senai_pdm_2021_exemplo1;
-
-import androidx.appcompat.app.ActionBar;
-import androidx.appcompat.app.AlertDialog;
-import androidx.appcompat.app.AppCompatActivity;
+package com.example.senai_pdm_2021_exemplo1.apresentacao;
 
 import android.content.DialogInterface;
 import android.os.Bundle;
@@ -11,6 +7,13 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
+
+import androidx.appcompat.app.ActionBar;
+import androidx.appcompat.app.AlertDialog;
+import androidx.appcompat.app.AppCompatActivity;
+
+import com.example.senai_pdm_2021_exemplo1.R;
+import com.example.senai_pdm_2021_exemplo1.dados.Database;
 
 public class ActionsBook extends AppCompatActivity {
 

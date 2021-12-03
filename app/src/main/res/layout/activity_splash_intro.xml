@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SplashIntro"
+    tools:context="com.example.senai_pdm_2021_exemplo1.apresentacao.SplashIntro"
     android:background="@drawable/screen_intro">
 
 </androidx.constraintlayout.widget.ConstraintLayout>
